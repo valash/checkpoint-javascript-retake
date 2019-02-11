@@ -21,9 +21,26 @@ var people = [
 // called `peopleAges`.
 // Type your solution immediately below this line:
 
+var peopleAges = [];
+
+
+
+people.map(function(evt){
+  return evt.people.age
+});
+console.log(peopleAges)
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+var wdiStudents = [];
+
+people.filter(people);
+
+// people.filter(people.course = "wdi");
+// console.log(people.course === 'WDI');
+var wdiStudents = (people.course === 'WDI');
+console.log(wdiStudents);
